@@ -1,0 +1,139 @@
+#nav {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+    overflow:hidden;
+}
+
+li {
+	float: right-side;
+	display: inline;
+}
+
+li a {
+	display: block;
+	background-color: white;
+	padding:8px;
+	float: right;
+}
+
+#hero-image {
+	background-image:url("bsd bckgrnd.jpg");
+	height:500px;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero-text {
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	color:black;
+}
+
+}
+
+#about {
+	background-color:orange;
+	width:825px;
+	height:325px;
+	border-radius:10px;
+	background-position:left;
+	border-width:850px;
+	margin:2px;
+}
+
+
+container {
+	width:px;
+	height:px;
+	
+}
+
+
+h3 {
+	color:black;
+	text-align:left;
+}
+
+p {
+	font-size:18px;
+}
+
+
+container {
+	width:px;
+	height:px;
+	
+}
+	
+#grid-container {
+	width: 325px;
+	height:325px;
+	display: grid;
+	grid-template-columns: 150px 150px;
+	grid-row: 150px 150px;
+	grid-column-gap:5%;
+	grid-row-gap:5%;
+	background-color:teal;
+	justify-content:end;
+	float:right-side;
+	
+}
+	
+
+row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+
+column img {
+	margin-top: 8px;
+	vertical-align: right;
+	width: 25%;
+}
+
+blockquote {
+	position:center;
+	background-color:teal;
+	margin: 50px;
+	padding:40px;
+	border-radius:10px;
+}
+
+
+#sm-icons {
+	width:75%;
+	height:500px;
+	display:grid;
+	grid-template-columns:100px 100px 100px;
+	grid-template-rows:100px 100px 100px;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	justify-content:center-left;
+	animation-timing-function:ease-in-out;
+}
+
+
+
+
+
+@keyframes sm-icons {
+	
+
+
+	
+
+	
